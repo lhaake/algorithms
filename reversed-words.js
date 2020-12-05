@@ -5,9 +5,8 @@
 
 // using .reverse()   
 const reverseWords = (str) => {
-  
-  return str.split(" ").reverse().join(" ");
 
+  return str.split(" ").reverse().join(" ");
 }
 
 // without .reverse()
@@ -27,3 +26,5 @@ const reverseWords = (str) => {
   
   return newStr;
 }
+
+console.log(reverseWords("hello world!"))
